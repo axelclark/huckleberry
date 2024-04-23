@@ -9,4 +9,65 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+.max-width-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+
+.intro-chunk {
+  margin-top: 96px;
+  margin-bottom: 64px;
+  max-width: 415px;
+  padding: 0 24px;
+}
+
+.title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 28px;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+strong {
+  color: #009966;
+}
+
+main {
+  background-color: #666666;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  border-top: 8px solid #999999;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 10px 24px 0px 24px;
+  border-bottom: 8px solid #999999;
+}
+
+.indented-heading {
+  background-color: #FFBF00;
+  padding: 16px 32px 15px 32px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: -32px;
+  width: fit-content;
+  border-bottom: 8px solid #CC9900;
+
+}
